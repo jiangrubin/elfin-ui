@@ -1,0 +1,22 @@
+{
+  "name": "elfin-ui",
+  "version": "0.0.1-beta",
+  "description": "",
+  "main": "lib/elfin-ui.common.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "npm run clean && webpack --config build/webpack.common.js && webpack --config build/webpack.umd.js && webpack --config build/webpack.component.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "rimraf": "^3.0.2",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
+}
