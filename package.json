@@ -12,8 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "file-save": "^0.2.0",
     "progress-bar-webpack-plugin": "^2.1.0",
     "rimraf": "^3.0.2",
+    "uppercamelcase": "^3.0.0",
     "vue-loader": "^15.9.6",
     "vue-template-compiler": "^2.6.12",
     "webpack": "^5.11.1",

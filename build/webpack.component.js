@@ -1,13 +1,13 @@
 const path = require('path')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
+
 const config = require('./webpack.config')
+const components = require('../components.json')
 
 module.exports = {
   mode: 'production',
-  entry: {
-    hello: './packages/hello/index.js'
-  },
+  entry: components,
   output: {
     path: path.resolve(__dirname, '../lib'),
     filename: '[name].js',
